@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+body {
+    background-color: #f1ebeb;
+}
+
+nav {
+    background-color: #8b7272;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+}
+ul li {
+    padding: 0 20px;
+    list-style-type: none;
+}
+
+.nav-button {
+    display: flex;
+    justify-content: center;
+}
+.container-header {
+    background-color: #8b7272;
+    color: white;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.header-content-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-content-right {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 51px 0;
+    padding-right: 30px;
+}
+.header-content-right h1 {
+    padding-right: 280px;
+    font-size: 50px;
+    margin-bottom: -142px;
+}
+.header-content-right p {
+    font-size: 20px;
+    margin-top: 112px;
+}
+.email-input {
+    margin-top: -95px;
+}
+
+.fa-envelope {
+    color: black;
+}
+
+
+/* ------------Page 2------------ */
+
+div.page2 {
+    color: black;
+    height: 90vh;
+    color: #000000;
+}
+.page2-header {
+    text-align: center;
+}
+
+.data {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 50%;
+    margin: auto;
+}
+
+.data div {
+    margin: auto;
+}
+
+.full-image {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page2-header h1{
+    margin-top: 50px;
+    padding: 0 524px;
+}
+.data {
+    margin-top: 46px;
+}
+.full-image img {
+    margin-top: 14px;
+}
+
+/* -------page 3------- */
+
+.title h1 {
+    text-align: center;
+    padding: 0 591px;
+}
+
+.one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80vh;
+    
+}
+
+.one-ka-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.one-ka-left {
+    padding: 160px 13px 0 93px;
+}
+.one-ka-left p{
+    padding-top: 20px;
+}
+.one-ka-left h1{
+    padding-right: 287px;
+}
+.one-ka-left .btn{
+    padding-top: 50px;
+}
+
+/* -----------three----------- */
+
+.three {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80vh;
+    
+}
+
+.three-ka-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.three-ka-left {
+    padding: 160px 13px 0 93px;
+}
+.three-ka-left p{
+    padding-top: 20px;
+}
+.three-ka-left h1{
+    padding-right: 287px;
+}
+.three-ka-left .btn{
+    padding-top: 50px;
+}
+.three {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80vh;  
+}
+
+.three-ka-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.three-ka-left {
+    padding: 160px 13px 0 93px;
+}
+.three-ka-left p{
+    padding-top: 20px;
+}
+.three-ka-left h1{
+    padding-right: 287px;
+}
+.three-ka-left .btn{
+    padding-top: 50px;
+}
+
+
+/* ------two---- */
+
+.two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80vh;   
+}
+
+.two-ka-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.two-ka-left {
+    padding: 160px 13px 0 93px;
+}
+.two-ka-left p{
+    padding-top: 20px;
+}
+.two-ka-left h1{
+    padding-right: 287px;
+}
+.two-ka-left .btn{
+    padding-top: 50px;
+}
+.two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80vh;
+}
+
+.two-ka-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.two-ka-left {
+    padding: 160px 13px 0 93px;
+}
+.two-ka-left p{
+    padding-top: 20px;
+}
+.two-ka-left h1{
+    padding-right: 287px;
+}
+.two-ka-left .btn{
+    padding-top: 50px;
+}
+
+/* --------------MEETING---------- */
+
+.meet {
+    height: 10vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+.person-3 {
+    margin-top: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    float: center;
+    grid-gap: 50px;
+    padding: 0 150px;
+}
+
+.see-more{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 71px;
+}
+
+
+/* ------footer----- */
+
+.footer-title {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.icons div {
+    width: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    padding: 0 20px;
+    border-radius: 100px;
+    margin: 0 10px;
+}
+footer {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    padding: 0 50px;
+    height: 50vh;
+    background-color: rgb(71, 64, 64);
+}
+.icons {
+    display: flex;
+    margin-top: 35px;
+}
+.footer-title > img {
+    margin-top: 35px;
+    margin-left: 30px;
+}
+hr {
+    margin-top: 40px;
+}
+
+.last {
+    margin-top: 40px;
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+p.head {
+    font-weight: bold;
+}
+
+.last div {
+    font-family: 'Poppins';
+}
+
+button {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: #66AD47;
+    border: none;
+    color: white;
+}
+
+.meet p {
+    padding-right: 188px;
+}
+.first-button {
+    background-color: transparent;
+    border: 0.5px solid rgb(176, 214, 119);
+}
+
+li:hover {
+    cursor: pointer;
+}
+.email-input {
+    width: 500px;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.para1 {
+    padding-right: 167px;
+}
+
+.email-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+input{
+    border: none;
+    padding-right: 100px;
+}
+
