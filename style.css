@@ -1,17 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+body {
+    background-color: #f1ebeb;
+    overflow-x: hidden;
+
+}
+
+.menu {
+    display: none;
+}
+
 .logo {
     margin-left: 50px;
     margin-top: 20px;
-}
-
-body {
-    background-color: #f1ebeb;
 }
 
 nav {
@@ -125,7 +132,6 @@ div.page2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 80vh;
-    
 }
 
 .one-ka-right {
@@ -379,3 +385,110 @@ input{
     padding-right: 100px;
 }
 
+/* -----------MEDIA QUERY--------- */
+/* -----------MEDIA QUERY--------- */
+/* -----------MEDIA QUERY--------- */
+
+@media screen and (max-width:950px){
+    
+    .ul ul, .nav-button{
+        display: none;
+    }
+
+    .container-header {
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+        margin-bottom: -350px;
+        padding-top: 50px;
+    }
+
+    .header-content-right h1{
+        width: 100%;
+        text-align: center;
+        padding: 0px 0;
+        padding-right: 0 0px;
+        margin-left: 10px;
+    }
+
+    .header-content-right p{
+        width: 100%;
+        text-align: center;
+        padding: 0px 0;
+        padding-right: 0 0px;
+        margin-left: 10px;
+    }
+
+    .header-content-right .email-input{
+        width: 100%;
+        text-align: center;
+        padding: 0px 0;
+        padding-right: 0 0px;
+        margin-left: 10px;
+    }
+
+    .data {
+        gap: 20px;
+        place-content: center;
+    }
+
+    .one, .two, .three{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 800px;
+    }
+
+    .person-3 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .meet {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .meet p {
+        padding-right: 0px;
+    }
+
+    .last {
+        background-color: ;
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #8b7272;
+    }
+
+    .one-ka-left, .two-ka-left, .three-ka-left{
+        padding: 0px 0px 0 0px;
+        text-align: center;
+    }
+    .one-ka-left p, .two-ka-left p, .three-ka-left p{
+        padding-top: 0px;
+    }
+    .one-ka-left h1, .two-ka-left h1, .three-ka-left h1{
+        padding-right: 0px;
+    }
+    .one-ka-left .btn{
+        padding-top: 50px;
+    }
+
+    .icons {
+        margin-top: 45px;
+    }
+
+    .menu {
+        display: block;
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+}
