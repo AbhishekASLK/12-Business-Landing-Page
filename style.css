@@ -144,12 +144,15 @@ div.page2 {
 .one-ka-left {
     padding: 160px 13px 0 93px;
 }
+
 .one-ka-left p{
     padding-top: 20px;
 }
+
 .one-ka-left h1{
     padding-right: 287px;
 }
+
 .one-ka-left .btn{
     padding-top: 50px;
 }
@@ -472,12 +475,15 @@ input{
         padding: 0px 0px 0 0px;
         text-align: center;
     }
+    
     .one-ka-left p, .two-ka-left p, .three-ka-left p{
         padding-top: 0px;
     }
+    
     .one-ka-left h1, .two-ka-left h1, .three-ka-left h1{
         padding-right: 0px;
     }
+    
     .one-ka-left .btn{
         padding-top: 50px;
     }
